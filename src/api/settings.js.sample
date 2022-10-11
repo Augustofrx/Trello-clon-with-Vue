@@ -1,0 +1,10 @@
+export default {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
+};
+
+/* You must complete each variable of this file with your firebase data and remove the .sample extension from it */

@@ -2,6 +2,11 @@
 
 > Trello clon
 
+## Description
+
+<h5>This is a Trello Clon with Vue & Vuex, just for learning purposes</h5>
+
+
 ## Build Setup
 
 ``` bash

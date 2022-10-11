@@ -23,8 +23,8 @@ export default {
   data: function() {
     return {
         tasksList: [
-            {id: '1', title: 'Learn Vue', completed: false },
-            {id: '2', title: 'Learn Vuex', completed: false }
+            { id: '1', title: 'Learn Vue', completed: false },
+            { id: '2', title: 'Learn Vuex', completed: false }
         ]
     }
   }

@@ -1,5 +1,6 @@
 <template>
-  <section>
+  <section class="main">
+    <div class="headerSection">
     <h3><span>My panels</span> ▶ {{ name }}</h3>
     <input
       type="text"
@@ -7,6 +8,7 @@
       v-model="listName"
       v-on:keyup.enter="add()"
     />
+    </div>
     <div class="container">
       <column
         v-for="(list, index) in boardList"
@@ -48,8 +50,31 @@ export default {
 </script>
 
 <style scoped>
+
 section {
   text-align: left;
+
+}
+
+
+.headerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 h3 {
